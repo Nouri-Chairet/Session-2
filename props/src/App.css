@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #055bb1;
+    display: flex;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.navbar h1{
+    color: rgb(217, 230, 236);
+}
+.logo{
+   position: absolute;
+    left: 20px;
+}
+.card{
+    border: #5895d2 5px solid;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.Artist{
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Song{
+    padding-top: 10px;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.content{
+    background-color: rgb(1, 12, 18);
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10vw;
+}
